@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+}
+html{
+    font-family: "Montserrat", sans-serif;   
+}
+body{
+     background-color: rgb(226, 240, 250);
+}
+#titulo-principal{
+    box-sizing: border-box;
+    background-color: rgb(187, 241, 223);
+    border:3px solid black;
+}
+#fondo{
+background-image:url(../imagenes/IMG-principal.jpg) ;
+height: 300px;
+background-size: auto;
+background-position: center bottom;
+background-repeat: no-repeat;
+}
+.margen{
+    background-color:#d6d4d4 ;
+    margin-top: 20 px; 
+    margin-right:20px ;
+    padding: 20px ;
+}
+.navbar-logotipo{
+    background-position: left top;
+}
+.menu a{
+    display: inline block;
+    padding: 10px 0;
+    color: rgb(12, 10, 24);
+    text-decoration: none;
+    width: 100 px;
+    text-align: center;
+    border: 1px solid blanchedalmond;
+    border-radius: 30px;  
+    background-color: blanchedalmond;
+}
+.menu{
+     text-align: right;
+}
+
+h3{
+    color: rgb(250, 248, 246);
+}
+.imagen{
+    width:200px;
+    height: 200px;
+    border-radius: 70%;
+    border: 10px solid rgb(99, 74, 206);
+}
+.imagen:hover{
+    transform: scale(1.2);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+
+section article{
+    margin: 1 rem 0;
+    padding: 0.25rem 0;
+}
+.section article:hover{
+    box-shadow: 0 0.1rem 0.4rem; 
+}
+.imagen{
+   max-width: 150px;
+    margin: 10 auto;
+}
+.imagen.rotat:hover{
+    transform:rotate(45deg) ;
+}
+.section article{
+    transition: all 0.3s ease;
+    background-color: rgb(241, 236, 247);
+    margin: 1rem 0;
+    border-radius: 0.5 rem;
+    padding: 0.25rem 0;
+    cursor:pointer;
+}
+
+footer{
+    background-color: rgb(15, 19, 19);
+   color:aliceblue;
+}
+footer section{
+    float: right;
+}
+footer a{
+    color:blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+}
+footer a:hover{
+   color: cornflowerblue;
+
+}
+@media (max-width: 600px){
+    body { 
+        background-color: cadetblue;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imagen{
+        justify-content: left;
+
+    }
+}
+   
+
+
+
+
+
